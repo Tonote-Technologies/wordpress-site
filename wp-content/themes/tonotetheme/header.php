@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <title>Home - Electronic Signing Platform</title> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
 
     <?php wp_head(); ?>
 
@@ -29,6 +30,40 @@
         display: inline-flex
     }
 </style>
+<script>
+    // Toggle menu
+    document.addEventListener('click', function (event) {
+        // console.log(event.target);
+        if (event.target.id === 'isToggle') {
+            toggleMenu()
+        }
+    });
+    function toggleMenu() {
+        document.getElementById('isToggle').classList.toggle('open');
+        var isOpen = document.getElementById('navigation')
+        if (isOpen.style.display === "block") {
+            isOpen.style.display = "none";
+        } else {
+            isOpen.style.display = "block";
+        }
+    };
+
+    // Clickable Menu
+    document.addEventListener('click', function (event) {
+        if (document.getElementById("navigation")) {
+            var elements = document.getElementById("navigation").getElementsByTagName("a");
+            for (var i = 0, len = elements.length; i < len; i++) {
+                elements[i].onclick = function (elem) {
+                    if (elem.target.getAttribute("href") === "javascript:void(0)") {
+                        var submenu = elem.target.nextElementSibling.nextElementSibling;
+                        submenu.classList.toggle('open');
+                    }
+                }
+            }
+        }
+    });
+
+</script>
 
 <body>
 
@@ -66,10 +101,12 @@
                         <div class="btn btn-outline-light top-btn" style="color: #101828;">Sign In</div>
                     </a>
                 </li>
-                <li class="list-inline-item ps-1 mb-0"><a href="https://calendly.com/tonote-/tonote-demo"
-                        target="_blank">
-                        <div class="btn btn-primary top-btn"> Request a demo </div>
-                    </a>
+                <li class="list-inline-item ps-1 mb-0">
+                    <div class=" d-none d-lg-block">
+                        <a href="https://calendly.com/tonote-/tonote-demo" target="_blank">
+                            <div class="btn btn-primary top-btn"> Request a demo </div>
+                        </a>
+                    </div>
                 </li>
             </ul><!--end login button-->
 
@@ -108,7 +145,7 @@
                         <ul class="submenu megamenu pt-4">
                             <li>
                                 <ul>
-                                    <dt class="px-4 py-3">
+                                    <dt class="px-4 py-3 d-none d-lg-block">
                                         <div class="nav-badge">
                                             <div
                                                 style="color: #003BB3; font-size: 16px; font-family: Poppins; font-weight: 400; line-height: 24px; word-wrap: break-word">
@@ -129,7 +166,7 @@
                             </li>
                             <li>
                                 <ul>
-                                    <dt class="px-4 py-3">
+                                    <dt class="px-4 py-3 d-none d-lg-block">
                                         <div class="nav-badge">
                                             <div class="text-center"
                                                 style="color: #003BB3; font-size: 16px; font-family: Poppins; font-weight: 400; line-height: 24px; word-wrap: break-word">
