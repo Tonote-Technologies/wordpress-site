@@ -1,4 +1,14 @@
 <?php get_header(); ?>
+<?php
+
+$monthly_plans = get_field('monthly_plans');
+$annual_plans = get_field('annual_plans');
+
+$get_started = get_field('get_started');
+
+
+?>
+
 <section class="">
     <div class="container mt-100 mt-60">
         <div class="py-5"
@@ -55,7 +65,9 @@
                                         <h6 class="fw-bold text-uppercase mb-4">Basic Plan</h6>
                                         <div class="d-flex mb-4">
                                             <span class="h4 mb-0 mt-2"></span>
-                                            <span class="price h1 mb-0">Free</span>
+                                            <span class="price h1 mb-0">
+                                                <?php echo $monthly_plans['basic'] == 0 ? 'free' : number_format($monthly_plans['basic'], 2) ?>
+                                            </span>
                                             <span class="h4 align-self-end mb-1">/mo</span>
                                         </div>
 
@@ -90,8 +102,9 @@
                                                         class="uil uil-check-circle align-middle"></i></span>24 / 7 web
                                                 access</li>
                                         </ul>
-                                        <!-- <a href="javascript:void(0)" class="btn btn-primary mt-4">Buy Now</a> -->
-                                        <a href="javascript:void(0)" class="btn btn-primary mt-4 w-100">Try It Now</a>
+
+                                        <a href="<?php echo $get_started ?? ''; ?>"
+                                            class=" btn btn-primary mt-4 w-100">Try It Now </a>
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -103,7 +116,9 @@
                                         <h6 class="fw-bold text-uppercase mb-4">Pro Plan</h6>
                                         <div class="d-flex mb-4">
                                             <span class="h4 mb-0 mt-2">₦</span>
-                                            <span class="price h1 mb-0">5,000</span>
+                                            <span class="price h1 mb-0">
+                                                <?php echo $monthly_plans['pro_plan'] == 0 ? 'free' : number_format($monthly_plans['pro_plan'], 2) ?>
+                                            </span>
                                             <span class="h4 align-self-end mb-1">/mo</span>
                                         </div>
 
@@ -157,7 +172,9 @@
                                                 Access to a digital locker for you and your team members
                                             </li>
                                         </ul>
-                                        <a href="javascript:void(0)" class="btn btn-primary mt-4 w-100">Sign up now</a>
+                                        <a href="<?php echo ($get_started); ?>" class="btn btn-primary mt-4 w-100">Sign
+                                            up
+                                            now</a>
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -176,7 +193,9 @@
                                         <h6 class="fw-bold text-uppercase mb-4">Business Plan</h6>
                                         <div class="d-flex mb-4">
                                             <span class="h4 mb-0 mt-2">₦</span>
-                                            <span class="price h1 mb-0">10,000</span>
+                                            <span class="price h1 mb-0">
+                                                <?php echo $monthly_plans['business_plan'] == 0 ? 'free' : number_format($monthly_plans['business_plan'], 2) ?>
+                                            </span>
                                             <span class="h4 align-self-end mb-1">/mo</span>
                                         </div>
 
@@ -219,7 +238,8 @@
                                                 dedicated customer success manager</li>
 
                                         </ul>
-                                        <a href="javascript:void(0)" class="btn btn-primary mt-4 w-100">Sign up now</a>
+                                        <a href="<?php echo $get_started ?? ''; ?>"
+                                            class=" btn btn-primary mt-4 w-100">Sign up now</a>
 
 
                                     </div>
@@ -239,7 +259,9 @@
                                         <h6 class="fw-bold text-uppercase mb-4">Basic Plan</h6>
                                         <div class="d-flex mb-4">
                                             <span class="h4 mb-0 mt-2"></span>
-                                            <span class="price h1 mb-0">Free</span>
+                                            <span class="price h1 mb-0">
+                                                <?php echo $annual_plans['basic'] == 0 ? 'free' : number_format($annual_plans['basic'], 2) ?>
+                                            </span>
                                             <span class="h4 align-self-end mb-1">/yr</span>
                                         </div>
 
@@ -274,8 +296,10 @@
                                                         class="uil uil-check-circle align-middle"></i></span>24 / 7 web
                                                 access</li>
                                         </ul>
-                                        <!-- <a href="javascript:void(0)" class="btn btn-primary mt-4">Buy Now</a> -->
-                                        <a href="javascript:void(0)" class="btn btn-primary mt-4 w-100">Try It Now</a>
+
+                                        <a href="<?php echo $get_started ?? ''; ?>"
+                                            class="btn btn-primary mt-4 w-100">Try It
+                                            Now</a>
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -287,7 +311,11 @@
                                         <h6 class="fw-bold text-uppercase mb-4">Pro Plan</h6>
                                         <div class="d-flex mb-4">
                                             <span class="h4 mb-0 mt-2">₦</span>
-                                            <span class="price h1 mb-0">54,000</span>
+                                            <span class="price h1 mb-0">
+                                                <!-- 54,000 -->
+
+                                                <?php echo $annual_plans['pro_plan'] == 0 ? 'free' : number_format($annual_plans['pro_plan'], 2) ?>
+                                            </span>
                                             <span class="h4 align-self-end mb-1">/yr</span>
                                         </div>
 
@@ -341,7 +369,8 @@
                                                 Access to a digital locker for you and your team members
                                             </li>
                                         </ul>
-                                        <a href="javascript:void(0)" class="btn btn-primary mt-4 w-100">Sign up now</a>
+                                        <a href="<?php echo $get_started ?? ''; ?>"
+                                            class=" btn btn-primary mt-4 w-100">Sign up now</a>
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -360,7 +389,9 @@
                                         <h6 class="fw-bold text-uppercase mb-4">Business Plan</h6>
                                         <div class="d-flex mb-4">
                                             <span class="h4 mb-0 mt-2">₦</span>
-                                            <span class="price h1 mb-0">108,000</span>
+                                            <span class="price h1 mb-0">
+                                                <?php echo $annual_plans['business_plan'] == 0 ? 'free' : number_format($annual_plans['business_plan'], 2) ?>
+                                            </span>
                                             <span class="h4 align-self-end mb-1">/yr</span>
                                         </div>
 
@@ -403,7 +434,8 @@
                                                 dedicated customer success manager</li>
 
                                         </ul>
-                                        <a href="javascript:void(0)" class="btn btn-primary mt-4 w-100">Sign up now</a>
+                                        <a href="<?php echo $get_started ?? ''; ?>"
+                                            class="btn btn-primary mt-4 w-100">Sign up now</a>
 
 
                                     </div>

@@ -16,7 +16,7 @@
     <div class="py-5"
         style="width: 100%; height: 100%; flex-direction: column; justify-content: center; align-items: center; gap: 24px; display: inline-flex">
 
-        <div class="py-5"
+        <div class="py-5 w-75"
             style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 12px; display: flex">
 
 
@@ -29,14 +29,15 @@
                         Enter Document ID to verify</div>
                     <div
                         style="align-self: stretch; background: white; box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05); border-radius: 8px; overflow: hidden; border: 1px #D0D5DD solid; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                        <input placeholder="Enter Document ID" class="form-control">
+                        <input placeholder="Enter Document ID" id="document_id"
+                            value="<?php echo $document_id ?>" class="form-control">
 
 
                     </div>
 
                 </div>
                 <div class="text-center w-100">
-                    <button class=" btn btn-primary top-btn " type="submit">Verify</button>
+                    <button class="btn btn-primary top-btn" id="verify" type="button">Verify</button>
                 </div>
             </div>
 

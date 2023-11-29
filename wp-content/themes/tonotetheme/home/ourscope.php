@@ -14,7 +14,8 @@
                 </div>
 
                 <div class="d-flex justify-content-center">
-                    <img src="<?php bloginfo('template_directory'); ?>/assets/images/img.png" alt="" height="550px" />
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/images/img.png"
+                        class="animate__animated animate__pulse infinity" alt="" height="550px" />
                 </div>
             </div><!--end col-->
         </div><!--end row-->
@@ -53,7 +54,7 @@
 
                     <div
                         style="height: 493.85px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 32px; display: flex">
-                        <div
+                        <div class="animate__animated animate__fadeInLeft"
                             style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
                             <div
                                 style="width: 498px; color: black; font-size: 30px; font-family: Poppins; font-weight: 600; line-height: 38px; word-wrap: break-word">
@@ -62,8 +63,9 @@
                                 style="width: 510px; color: #667085; font-size: 18px; font-family: Poppins; font-weight: 400; line-height: 28px; word-wrap: break-word">
                                 Sign Documents Online in Just a Few Click</div>
                         </div>
-                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/image-content-left.png" />
-
+                        <div class="animate__animated animate__fadeInLeft">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/image-content-left.png" />
+                        </div>
 
                     </div>
                 </div>
@@ -73,7 +75,7 @@
                     style="width: 100%; height: 100%; flex-direction: column; justify-content: center; align-items: flex-start; gap: 23px; display: inline-flex">
                     <div
                         style="height: 154px; padding-left: 40px; padding-right: 40px; padding-top: 32px; padding-bottom: 32px; background: white; border-radius: 12px; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
-                        <div
+                        <div class="animate__animated animate__fadeInRight"
                             style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
                             <div style="width: 64px; height: 64px; position: relative">
                                 <div style="width: 44px; height: 58px; left: 10px; top: 3px; position: absolute">
@@ -123,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <div
+                    <div class="animate__animated animate__fadeInRight"
                         style="height: 154px; padding-left: 40px; padding-right: 40px; padding-top: 32px; padding-bottom: 32px; background: #E5EBF7; border-radius: 12px; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
                         <div
                             style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
@@ -177,7 +179,7 @@
                             </div>
                         </div>
                     </div>
-                    <div
+                    <div class="animate__animated animate__fadeInRight"
                         style="height: 178px; padding-left: 40px; padding-right: 40px; padding-top: 32px; padding-bottom: 32px; background: white; border-radius: 12px; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
                         <div
                             style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
@@ -239,7 +241,8 @@
     <div class="container ">
         <div class="row row-style">
             <div class="col-lg-6 col-md-6 col-12 order-1 order-lg-0 g-0 image-aside">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/images/illustrator/image-1.png" class="img-fluid lg-screen" alt="" />
+                <img src="<?php bloginfo('template_directory'); ?>/assets/images/illustrator/image-1.png"
+                    class="img-fluid lg-screen" alt="" />
 
             </div>
 

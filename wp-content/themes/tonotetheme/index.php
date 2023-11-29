@@ -101,13 +101,39 @@ get_header(); ?>
     </div>
 </section>
 
+<section class="d-none">
+    <div class="container">
+        <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
+
+            <?php
+            // Get all categories
+            $categories = get_categories();
+            foreach ($categories as $category) {
+                ?>
+                <li class="nav-item" role="<?php echo esc_html($category->name); ?>">
+                    <button class="nav-link active" id="<?php echo esc_html($category->name); ?>-tab" data-bs-toggle="tab"
+                        data-bs-target="#<?php echo esc_html($category->name); ?>-tab-pane" type="button" role="tab"
+                        aria-controls="<?php echo esc_html($category->name); ?>-tab-pane" aria-selected="true">
+                        <?php echo esc_html($category->name); ?> (
+                        <?php echo esc_html($category->count); ?>)
+                    </button>
+
+                </li>
+
+
+            <?php } ?>
+        </ul>
+
+    </div>
+</section>
+
 <section>
     <div class="container my-5 px-5">
         <div class="row">
             <!-- Article Section (full width on small screens) -->
             <div class="col-12 col-lg-9">
-                <h4 class="mb-4">
-                    <?php the_archive_title(); ?>
+                <h4 class="mb-4">Other Articles
+                    <?php //the_archive_title(); ?>
                 </h4>
                 <div class="list-group d-flex flex-row overflow-auto py-2" id="categoryList">
                     <a href="<?php echo site_url('blog'); ?>"

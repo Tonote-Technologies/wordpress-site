@@ -61,7 +61,7 @@ get_header(); ?>
                         <?php echo the_content(); ?>
                     </p>
                 </div>
-                <div>
+                <div class="form-control">
                     <?php echo comment_form(); ?>
                 </div>
             </div>
@@ -166,3 +166,9 @@ get_header(); ?>
 </section>
 
 <?php get_footer(); ?>
+<script>
+    $("#submit").addClass('btn btn-primary');
+    $("#comment").addClass('form-control');
+    $("label").addClass('w-100');
+
+</script>
