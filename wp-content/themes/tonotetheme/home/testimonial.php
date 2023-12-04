@@ -11,20 +11,17 @@
                         <?php foreach ($testimonial as $row) { ?>
                             <div class="card m-2 border py-4 px-2">
                                 <div class="card-wrap">
-                                    <div>
-                                        <div class="px-4 text-primary">
-                                            <?php echo $row['customer_name'] ?>
-                                        </div>
-                                        <div class="card-body pt-1">
+                                    <div class="card-body ">
+                                        <p class="">
                                             <?php echo $row['testimony'] ?>
-                                        </div>
+                                        </p>
+                                        <p class="py-2 text-primary">
+                                            <?php echo $row['customer_name'] ?>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         <?php } ?>
-
-
-
 
                     </section>
                 </div>

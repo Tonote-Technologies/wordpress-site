@@ -41,7 +41,7 @@ get_header(); ?>
             </div>
             <div class="col-lg-3 col-md-12">
                 <h3 class="counter-text">10k</h3>
-                <div class="counter-text-head">Notary publics</div>
+                <div class="counter-text-head">Notaries public</div>
                 <div class="counter-text-desc">Our platform have onboarded over 10k notary publics that are readily
                     available for your doc notarizations.</div>
             </div>

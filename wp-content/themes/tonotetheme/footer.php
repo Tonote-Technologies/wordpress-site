@@ -39,7 +39,7 @@
                         <div class="col-lg-3 col col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                             <h5 class="text-light">About Us</h5>
                             <p class="mt-4">
-                                Today, we help people sign, notarise, verify and manage
+                                Today, we help people sign, notarize, verify and manage
                                 documents, fully online.
                             </p>
                         </div>
@@ -47,18 +47,14 @@
                         <div class="col-lg-2 col-md-4 col col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                             <h5 class="text-light">Solutions</h5>
                             <ul class="list-unstyled footer-list mt-4">
+
                                 <li>
-                                    <a href="#basic" class="text-foot">For Individuals</a>
-                                </li>
-                                <li>
-                                    <a href="#pro" class="text-foot">For Teams</a>
-                                </li>
-                                <li>
-                                    <a href="#business" class="text-foot"> For Business</a>
+                                    <a href="<?php echo site_url('business-affiliates') ?>" class="text-foot"> For
+                                        Business</a>
                                 </li>
 
                                 <li>
-                                    <a href="{ name: 'resource.partners' }" class="text-foot" exact>
+                                    <a href="<?php echo site_url('notaries') ?>" class="text-foot" exact>
                                         <span>Partners</span> <span class="submenu-arrow"></span>
                                     </a>
                                 </li>
@@ -69,16 +65,16 @@
                             <h5 class="text-light">Support</h5>
                             <ul class="list-unstyled footer-list mt-4">
                                 <li>
-                                    <a href="{ name: 'resource.faq' }" class="text-foot" exact>
+                                    <a href="<?php echo site_url('faq') ?>" class="text-foot" exact>
                                         FAQs</a>
                                 </li>
                                 <li>
-                                    <a href="{ name: 'resource.blog' }" class="text-foot" exact>
+                                    <a href="<?php echo site_url('blog') ?>" class="text-foot" exact>
                                         Blog</a>
                                 </li>
 
                                 <li>
-                                    <a href="{ name: 'contact' }" class="text-foot">
+                                    <a href="<?php echo site_url('contact') ?>" class="text-foot">
                                         Contact Us</a>
                                 </li>
                             </ul>
@@ -88,11 +84,11 @@
                             <h5 class="text-light">Legals</h5>
                             <ul class="list-unstyled footer-list mt-4">
                                 <li>
-                                    <a href="privacy.php" class="text-foot">
+                                    <a href="<?php echo site_url('privacy') ?>" class="text-foot">
                                         Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="terms.php" class="text-foot">
+                                    <a href="<?php echo site_url('terms') ?>" class="text-foot">
                                         Terms of Use</a>
                                 </li>
 

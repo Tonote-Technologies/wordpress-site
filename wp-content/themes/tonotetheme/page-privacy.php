@@ -48,7 +48,7 @@
               privacy practices, please contact our Data Protection Officer in
               the following ways:
             </li>
-            <li class="list-group-item">
+            <li class="">
               Name: Detail Commercial Solicitors<br />
               Email address: info@detailsolicitors.com<br />
               Office Address: DCS Place, 8 DCS Street, Off Remi Olowude Way,
@@ -578,7 +578,7 @@
             any questions about this Privacy Policy or our privacy practices,
             please contact us at:
           </p>
-          <p class="list-group-item">
+          <p class="">
             <strong class="text-dark">Fikayo Durosinmi-Etti</strong><br />
             <strong class="text-dark">Designation:</strong> Co-Founder/CEO
             ToNote<br />

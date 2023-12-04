@@ -682,7 +682,7 @@ p {
 		position: relative;
 		padding: 7px 15px;
 		text-transform: capitalize;
-		font-size: 11px;
+		font-size: 16px;
 		letter-spacing: .04em;
 		font-weight: normal;
 		color: #212529 !important;
@@ -770,7 +770,7 @@ p {
 
 	#navigation {
 		position: absolute;
-		top: 74px;
+		top: 100px;
 		left: 0;
 		width: 100%;
 		display: none;

@@ -45,12 +45,11 @@
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2 text-center">
-                    <div class="title2" style="display: inline-block;"> Welcome to ToNotarise </div>
+                    <div class="title2" style="display: inline-block;"> Welcome to ToNotarize </div>
                     <div class="text-center text-light">
-                        Your trusted platform for seamless online notarization. Streamline the notarization process with
-                        our user-friendly platform, allowing you to notarize important documents with ease. Join
-                        thousands of satisfied users who rely on ToNote for secure, convenient, and legally recognized
-                        online notarization
+                        Your trusted platform for seamless remote notarization. <br>
+                        Connect with Supreme Court-certified notaries, Verify your Identity, Notarize documents with ease.<br>
+                        Join thousands of users leveraging ToNotarize for remote notarization
                     </div>
                 </div>
             </div>
@@ -233,7 +232,7 @@
         <h2 class="text-center mb-2">Features</h2>
         <div
             style="width: 100%; text-align: center; color: #343A47; font-size: 18px; font-family: Poppins; font-weight: 400; line-height: 28px; word-wrap: break-word">
-            Discover a new level of convenience and peace of mind as you navigate the world of digital document handling
+            Discover a new level of convenience and peace of mind as you navigate the <br> world of digital document handling
         </div>
 
         <div class="row">

@@ -17,10 +17,11 @@
                 </div>
                 <div class="title-heading me-lg-4 animate__animated animate__slideInLeft">
                     <h1 class="mb-3 hero-header lg-screen">
-                        Connect with a Supreme Court-certified notary public in Minutes!
+                        
+                        Get all kinds of <br> affidavits, Certify, <br>Legalize, and <br>Authenticate your <br>documents online fast!
                     </h1>
                     <h1 class="mb-3 hero-header sm-screen">
-                        Connect with a Supreme Court-certified notary public in Minutes!.
+                        Get all kinds of <br> affidavits, Certify, <br>Legalize, and <br>Authenticate your <br>documents online fast!
                     </h1>
                     <p class="para-desc">
                         Notarize Documents from Anywhere, Anytime
@@ -100,12 +101,6 @@
         </div>
     </div>
 </section>
-
-<!-- <div class="text-center border">
-    <div
-        style="width: 100%; height: 100%; transform: rotate(24.74deg); transform-origin: 0 0; border: 2px #B3B9C6 dotted">
-    </div>
-</div> -->
 
 <section class="section add-participant">
     <div class="container">

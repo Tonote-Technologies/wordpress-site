@@ -36,9 +36,9 @@
                 <div class="section-title mb-4 pb-2 text-center">
                     <div class="title2" style="display: inline-block;"> Welcome to ToSign </div>
                     <div class="text-center text-light">
-                        Your one-stop tool for document signings and management. Elevate your workflow with our secure
-                        platform, and quickly sign and share your documents with teammates. Join thousands of satisfied
-                        users who trust ToSign for a seamless and legally binding signing experience
+                        Your one-stop tool for document signings and management. <br>
+                        Securely sign and share documents by yourself or with teammates. <br>
+                        Join thousands of users who trust ToSign to build trust in their businesses.
                     </div>
                 </div>
             </div>

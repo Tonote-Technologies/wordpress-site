@@ -1,11 +1,11 @@
-<section class="section w-100 bg-half-100">
+<section class="section w-100 bg-half-100 section-bg">
     <div class="container mt-60">
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="section-title mb-4 pb-2 text-center">
-                    <h4 class=" mb-4">A new era of efficiency awaits your business</h4>
+                    <h1 class=" mb-4">Speed. Security. Compliance. Efficiency</h1>
                     <p class="text-muted  mb-0 mx-auto">
-                        Make your business faster, simpler and more cost-efficient with ToNote. Getting Started is easy
+                        A new era of efficiency awaits your business
                     </p>
                     <div class="d-flex justify-content-center mt-3">
                         <button class="btn btn-primary me-4">Get started</button>
@@ -27,15 +27,15 @@
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="section-title  text-center">
-                    <h4 class=" mb-4">Our goal is to simplify the way people agree and foster trust.</h4>
+                    <h4 class=" mb-4">Our goal is to simplify the way people agree and <br>build trust.</h4>
                     <p class="text-muted para-desc mb-0 mx-auto">
-                        Select any of our solutions customized to your need and experience.
+                        Discover the trust enablement solutions
                     </p>
                 </div>
 
                 <div class="mb-4 pb-2 d-flex justify-content-center">
                     <a href="javascript:void(0)" class="btn-pills btn btn-outline-primary mt-2 me-2">ToSign</a>
-                    <a href="javascript:void(0)" class="btn-pills btn btn-outline-primary mt-2 me-2">ToNotarise</a>
+                    <a href="javascript:void(0)" class="btn-pills btn btn-outline-primary mt-2 me-2">ToNotarize</a>
                     <a href="javascript:void(0)" class="btn-pills btn btn-outline-primary mt-2 me-2">ToVerify</a>
                 </div>
 
@@ -70,12 +70,13 @@
                     </div>
                 </div>
             </div>
+            <style>
+
+            </style>
             <div class="col-lg-6 col-12">
-                <div
-                    style="width: 100%; height: 100%; flex-direction: column; justify-content: center; align-items: flex-start; gap: 23px; display: inline-flex">
-                    <div
-                        style="height: 154px; padding-left: 40px; padding-right: 40px; padding-top: 32px; padding-bottom: 32px; background: white; border-radius: 12px; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
-                        <div class="animate__animated animate__fadeInRight"
+                <div class="aside-card">
+                    <div class="animate__animated animate__fadeInRight aside-card-item">
+                        <div
                             style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
                             <div style="width: 64px; height: 64px; position: relative">
                                 <div style="width: 44px; height: 58px; left: 10px; top: 3px; position: absolute">
@@ -125,8 +126,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="animate__animated animate__fadeInRight"
-                        style="height: 154px; padding-left: 40px; padding-right: 40px; padding-top: 32px; padding-bottom: 32px; background: #E5EBF7; border-radius: 12px; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                    <style>
+
+                    </style>
+                    <div class="animate__animated animate__fadeInRight aside-card-item">
                         <div
                             style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
                             <div
@@ -179,8 +182,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="animate__animated animate__fadeInRight"
-                        style="height: 178px; padding-left: 40px; padding-right: 40px; padding-top: 32px; padding-bottom: 32px; background: white; border-radius: 12px; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                    <div class="animate__animated animate__fadeInRight aside-card-item">
                         <div
                             style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
                             <div style="width: 64px; height: 64px; position: relative">
@@ -263,7 +265,7 @@
                         <br />
                         <br />
 
-                        This means you can notarise client’s
+                        This means you can notarize client’s
                         documents from anywhere using a combination of our e-signature, digital seal and
                         audio-visual conferencing features.
                     </div>
@@ -289,11 +291,11 @@
                         <span class="icon h5 me-2"><i class="uil uil-check-circle align-middle text-primary"></i></span>
                         <div
                             style="flex: 1 1 0; color: #303030; font-size: 16px; font-family: Poppins; font-weight: 400; line-height: 26px; word-wrap: break-word">
-                            Notarise from anywhere</div>
+                            Notarize from anywhere</div>
                     </div>
                 </div>
                 <div class="second-container">
-                    <div class="btn btn-outline-dark">Get Started</div>
+                    <div class="btn btn-outline-primary my-2">Get Started</div>
 
                 </div>
             </div>
