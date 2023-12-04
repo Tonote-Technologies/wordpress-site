@@ -103,17 +103,20 @@
                             <ul class="list-unstyled social-icon foot-social-icon mb-0">
                                 <li class="list-inline-item me-1">
                                     <a href="https://www.instagram.com/mytonote/" class="rounded">
-                                        <Icon icon="akar-icons:instagram-fill" />
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon/linkedin.png"
+                                            alt="linkedin" srcset="">
                                     </a>
                                 </li>
                                 <li class="list-inline-item me-1">
                                     <a href="https://twitter.com/gettonote?s=11" class="rounded">
-                                        <Icon icon="iconoir:twitter" />
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon/instagram.png"
+                                            alt="instagram" srcset="" />
                                     </a>
                                 </li>
                                 <li class="list-inline-item me-1">
                                     <a href="https://www.linkedin.com/company/gettonote" class="rounded">
-                                        <Icon icon="akar-icons:linkedin-fill" />
+                                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon/twitter.png"
+                                            alt="twitter" srcset="" />
                                     </a>
                                 </li>
                             </ul>
