@@ -49,20 +49,25 @@
                             <ul class="list-unstyled footer-list mt-4">
 
                                 <li>
-                                    <a href="<?php echo site_url('business-affiliates') ?>" class="text-foot"> For
-                                        Business</a>
+                                    <a href="<?php echo site_url('tosign') ?>" class="text-foot"> ToSign</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('tonotarise') ?>" class="text-foot"> ToNotarize</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('get-affidavit') ?>" class="text-foot"> Get
+                                        Affidavit</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo site_url('toverify') ?>" class="text-foot"> ToVerify</a>
                                 </li>
 
-                                <li>
-                                    <a href="<?php echo site_url('notaries') ?>" class="text-foot" exact>
-                                        <span>Partners</span> <span class="submenu-arrow"></span>
-                                    </a>
-                                </li>
+
                             </ul>
                         </div>
 
                         <div class="col-lg-2 col-md-4 col col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                            <h5 class="text-light">Support</h5>
+                            <h5 class="text-light">Explore</h5>
                             <ul class="list-unstyled footer-list mt-4">
                                 <li>
                                     <a href="<?php echo site_url('faq') ?>" class="text-foot" exact>
@@ -77,11 +82,15 @@
                                     <a href="<?php echo site_url('contact') ?>" class="text-foot">
                                         Contact Us</a>
                                 </li>
+                                <li>
+                                    <a href="<?php echo site_url('resources') ?>" class="text-foot">
+                                        Resources</a>
+                                </li>
                             </ul>
                         </div>
 
                         <div class="col-lg-2 col-md-4 col col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                            <h5 class="text-light">Legals</h5>
+                            <h5 class="text-light">Legal</h5>
                             <ul class="list-unstyled footer-list mt-4">
                                 <li>
                                     <a href="<?php echo site_url('privacy') ?>" class="text-foot">
@@ -100,31 +109,12 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                            <ul class="list-unstyled social-icon foot-social-icon mb-0">
-                                <li class="list-inline-item me-1">
-                                    <a href="https://www.instagram.com/mytonote/" class="rounded">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon/linkedin.png"
-                                            alt="linkedin" srcset="">
-                                    </a>
-                                </li>
-                                <li class="list-inline-item me-1">
-                                    <a href="https://twitter.com/gettonote?s=11" class="rounded">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon/instagram.png"
-                                            alt="instagram" srcset="" />
-                                    </a>
-                                </li>
-                                <li class="list-inline-item me-1">
-                                    <a href="https://www.linkedin.com/company/gettonote" class="rounded">
-                                        <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon/twitter.png"
-                                            alt="twitter" srcset="" />
-                                    </a>
-                                </li>
-                            </ul>
+
                             <p class="mt-4">
                                 1625B Saka Jojo Street, off Idejo Victoria Island, Lagos,
                                 Nigeria
                             </p>
-                            <div class="d-none">
+                            <div class="">
                                 <p class="h5 text-light">ToNote Inc.</p>
 
                                 <div>8 The GRN STE A Dover DE 19901</div>
@@ -149,8 +139,27 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0 d-none">
-
+                <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0 d-flex justify-content-end">
+                    <ul class="list-unstyled social-icon foot-social-icon mb-0">
+                        <li class="list-inline-item me-1">
+                            <a href="https://www.instagram.com/mytonote/" class="rounded">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon/linkedin.png"
+                                    alt="linkedin" srcset="">
+                            </a>
+                        </li>
+                        <li class="list-inline-item me-1">
+                            <a href="https://twitter.com/gettonote?s=11" class="rounded">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon/instagram.png"
+                                    alt="instagram" srcset="" />
+                            </a>
+                        </li>
+                        <li class="list-inline-item me-1">
+                            <a href="https://www.linkedin.com/company/gettonote" class="rounded">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon/twitter.png"
+                                    alt="twitter" srcset="" />
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

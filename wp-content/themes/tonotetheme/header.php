@@ -176,11 +176,15 @@
                                     </dt>
                                     <li><a class="sub-menu-item" href="<?php echo site_url('/law-firms'); ?>"> Law
                                             Firms</a></li>
-                                    <li><a class="sub-menu-item" href="#">Real Estate</a></li>
-                                    <li><a class="sub-menu-item" href="#">Financial Services</a>
+
+                                    <li><a class="sub-menu-item" href="<?php echo site_url('/real-estate'); ?>">Real
+                                            Estate</a></li>
+                                    <li><a class="sub-menu-item"
+                                            href="<?php echo site_url('/financial-services'); ?>">Financial Services</a>
                                     </li>
-                                    <li><a class="sub-menu-item" href="#"> Government</a></li>
-                                    <li><a class="sub-menu-item" href="#"> HR</a></li>
+                                    <li><a class="sub-menu-item" href="<?php echo site_url('/government'); ?>">
+                                            Government</a></li>
+                                    <li><a class="sub-menu-item" href="<?php echo site_url('/hr'); ?>"> HR</a></li>
                                 </ul>
                             </li>
                             <li style="width: 700px;">

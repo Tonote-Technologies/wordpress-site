@@ -15,15 +15,16 @@ get_header(); ?>
                 </div>
                 <div class="title-heading me-lg-4 animate__animated animate__slideInLeft">
                     <h1 class="mb-3 hero-header lg-screen">
-                        Elevate your <span class="text-primary">legal <br> practice</span> with ToNote
+                        Elevate your <span class="text-primary">real estate <br> practice</span> with ToNote
                     </h1>
                     <h3 class="mb-3 hero-header sm-screen">
-                        Elevate your <span class="text-primary">legal <br> practice</span> with ToNote
+                        Elevate your <span class="text-primary">real estate <br> practice</span> with ToNote
 
                     </h3>
                     <p class="para-desc">
-                        Sign, Notarize, and Verify Documents for clients and <br>with team members while being legally
-                        compliant.
+                        Real Estate is trust-driven- from property searches to<br> deal closings. ToNote makes it easy
+                        for
+                        you and your <br>clients to authenticate and sign off on any <br>documentation involved.
                     </p>
                     <div class="mt-4">
                         <a href="<?php echo $hero['link'] ?? ''; ?>" target="blank"
@@ -55,17 +56,18 @@ get_header(); ?>
                         <div
                             style="align-self: stretch; height: 272px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
                             <div style="width: 48px; height: 48px; position: relative">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon/agreement.png" />
+                                <img
+                                    src="<?php bloginfo('template_directory'); ?>/assets/images/icon/due-diligence.png" />
                             </div>
                             <div
                                 style="align-self: stretch; height: 200px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
                                 <div
                                     style="align-self: stretch; color: #101828; font-size: 24px; font-family: Poppins; font-weight: 600; line-height: 32px; word-wrap: break-word">
-                                    Faster agreements in a few clicks</div>
+                                    Due diligence at your <br>fingertips</div>
                                 <div
                                     style="align-self: stretch; color: #344054; font-size: 16px; font-family: Poppins; font-weight: 400; line-height: 24px; word-wrap: break-word">
-                                    Take deal closures from weeks to minutes with an e-signature solution that provides
-                                    you access to group signing, group signings, and signer identity verification.</div>
+                                    Verify the authenticity of your property<br>
+                                    documents in a few clicks.</div>
                             </div>
                         </div>
                         <div style="justify-content: center; align-items: center; gap: 8px; display: inline-flex">
@@ -87,17 +89,19 @@ get_header(); ?>
                         <div
                             style="align-self: stretch; height: 272px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
                             <div style="width: 48px; height: 48px; position: relative">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon/notary.png" />
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/icon/agreement.png" />
                             </div>
                             <div
                                 style="align-self: stretch; height: 200px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
                                 <div
                                     style="align-self: stretch; color: #101828; font-size: 24px; font-family: Poppins; font-weight: 600; line-height: 32px; word-wrap: break-word">
-                                    Notarize documents <br>from anywhere</div>
+                                    Convenient agreements <br>for clients</div>
                                 <div
                                     style="align-self: stretch; color: #344054; font-size: 16px; font-family: Poppins; font-weight: 400; line-height: 24px; word-wrap: break-word">
-                                    Legally connect your clients with Supreme Court-certified notaries via audio-visual
-                                    conferencing</div>
+                                    Close deals seamlessly with ToNote’s <br>e-signature solution. Your clients can
+                                    <br>sign
+                                    documents from anywhere at any time.
+                                </div>
                             </div>
                         </div>
                         <div style="justify-content: center; align-items: center; gap: 8px; display: inline-flex">
@@ -126,12 +130,13 @@ get_header(); ?>
                                 style="align-self: stretch; height: 200px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
                                 <div
                                     style="align-self: stretch; color: #101828; font-size: 24px; font-family: Poppins; font-weight: 600; line-height: 32px; word-wrap: break-word">
-                                    Secure and credible <br>document sharing</div>
+                                    High-level document <br>security</div>
                                 <div
                                     style="align-self: stretch; color: #344054; font-size: 16px; font-family: Poppins; font-weight: 400; line-height: 24px; word-wrap: break-word">
-                                    Multi-factor authentication, secure <br>encryption and NDPR compliance <br>make
-                                    ToNote a
-                                    secure platform for <br>document sharing.</div>
+                                    With ToNote, you’re in the driver’s seat. <br>Control access to your documents,
+                                    <br>verify the Identity of signers, and more <br>to protect the interests of clients
+                                    with <br>our advanced document security <br>features.
+                                </div>
                             </div>
                         </div>
                         <div style="justify-content: center; align-items: center; gap: 8px; display: inline-flex">
@@ -148,98 +153,10 @@ get_header(); ?>
         </div>
     </div>
     </div>
+</section>
 
 
 
 
-
-    <section class="section"
-        style="width: 100%; height: 100%; padding-top: 96px; padding-bottom: 96px; padding-left: 100px; background: #F7F9FD; flex-direction: column; justify-content: center; align-items: flex-start; gap: 48px; display: inline-flex">
-
-        <div class="container">
-            <h2 class="text-center">How Lawyers like you do more with ToNote</h2>
-            <div class="row ">
-                <!-- <div class="col-lg-1 col-sm-2">Clients Testimonials</div> -->
-                <div class="col-lg-12 col-sm-10">
-                    <section class="testimonial-wrap">
-                        <div class="testimony m-2 border py-4 px-2">
-                            <div class="card-wrap">
-                                <div>
-                                    <div class="px-4 text-primary">Joan</div>
-                                    <div class="card-body pt-1">
-                                        I’ve received my document. Thank you so much for a Perfect Service.
-                                        I have attached a signed copy, as requested.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimony m-2 border py-4 px-2">
-                            <div class="card-wrap">
-                                <div>
-                                    <div class="px-4 text-primary">User</div>
-                                    <div class="card-body pt-1">
-                                        Thank you so much! I am really really impressed and happy for this
-                                        solution; absolutely brilliant and exceptional!
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimony m-2 border py-4 px-2">
-                            <div class="card-wrap">
-                                <div>
-                                    <div class="px-4 text-primary">Msurshima Ugande</div>
-                                    <div class="card-body pt-1">
-                                        It was such a seamless process with excellent service. I highly
-                                        recommend.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimony m-2 border py-4 px-2">
-                            <div class="card-wrap">
-                                <div>
-                                    <div class="px-4 text-primary">Doyin Adetuyi</div>
-                                    <div class="card-body pt-1">
-                                        Professional, Prompt and excellent service!
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimony m-2 border py-4 px-2">
-                            <div class="card-wrap">
-                                <div>
-                                    <div class="px-4 text-primary">Feyisayo Rotimi</div>
-                                    <div class="card-body pt-1">
-                                        This is much appreciated, thank you for a seamless process.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="testimony m-2 border py-4 px-2">
-                            <div class="card-wrap">
-                                <div>
-                                    <div class="px-4 text-primary">Josephat Kennedy</div>
-                                    <div class="card-body pt-1">
-                                        Thank you very much! All my life, this is the only digitalised
-                                        active institute in Nigeria that meet up to business standard and
-                                        correspondence on time to their customer’s needs, very effective
-                                        👍👌✅
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <?php
-
-    include('get_started.php') ?>
-    <?php get_footer(); ?>
+<?php include('get_started.php') ?>
+<?php get_footer(); ?>

@@ -23,9 +23,9 @@ $btnContent = isset($page_title) && $page_title == "For lawyers" ? "Get our free
                 </div>
 
                 <div class="second-container">
-                    <div class="btn btn-light">
+                    <a href="https://calendly.com/tonote-/tonote-demo" target="_blank" class="btn btn-light">
                         <?= $btnContent ?>
-                    </div>
+                    </a>
                 </div>
             </div>
 
