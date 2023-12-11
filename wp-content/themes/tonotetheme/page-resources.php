@@ -15,7 +15,7 @@ get_header(); ?>
                 </div>
                 <div class="title-heading me-lg-4 animate__animated animate__slideInLeft">
                     <h1 class="mb-3 hero-header lg-screen">
-                        Remote Notarization is <span class="text-primary">now legal <br>
+                        Remote Notarization is <span class="text-primary">now legal
                             in Nigeria </span>due to the signing of the <br>
                         Notary Public Act 2023 into law.
                     </h1>
