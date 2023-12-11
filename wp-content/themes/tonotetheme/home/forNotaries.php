@@ -7,7 +7,7 @@
 
             </div>
 
-            <div class=" col-lg-6 col-md-6 col-12 order-0 order-lg-0 col-container">
+            <div class=" col-lg-6 col-md-6 col-12 order-0 order-lg-0">
                 <div style="first-container">
                     <div style="first-sub-container">
                         <div class="shade my-2">
