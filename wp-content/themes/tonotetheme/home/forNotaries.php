@@ -1,6 +1,6 @@
 <section class="section w-100 bg-half-100">
-    <div class="container ">
-        <div class="row row-style">
+    <div class="container mt-60">
+        <div class="row ">
             <div class="col-lg-6 col-md-6 col-12 order-1 order-lg-0 g-0 image-aside">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/law-new.png"
                     class="img-fluid lg-screen" alt="" />
