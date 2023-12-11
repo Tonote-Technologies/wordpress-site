@@ -44,7 +44,7 @@
                             </p>
                         </div>
 
-                        <div class="col-lg-2 col-md-4 col col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="col-lg-2 col-md-4 col-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                             <h5 class="text-light">Solutions</h5>
                             <ul class="list-unstyled footer-list mt-4">
 
@@ -66,7 +66,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-lg-2 col-md-4 col col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="col-lg-2 col-md-4 col-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                             <h5 class="text-light">Explore</h5>
                             <ul class="list-unstyled footer-list mt-4">
                                 <li>
@@ -89,7 +89,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-lg-2 col-md-4 col col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="col-lg-2 col-md-4 col-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                             <h5 class="text-light">Legal</h5>
                             <ul class="list-unstyled footer-list mt-4">
                                 <li>
@@ -108,7 +108,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-lg-3 col-md-4 col col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="col-lg-3 col-md-4 col-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
 
                             <p class="mt-4">
                                 1625B Saka Jojo Street, off Idejo Victoria Island, Lagos,

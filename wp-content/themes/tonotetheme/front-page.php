@@ -15,6 +15,4 @@ get_header();
 <?php include('home/testimonial.php') ?>
 <?php include('get_started.php') ?>
 
-
-<!-- <h1>Home Page</h1> -->
 <?php get_footer(); ?>
