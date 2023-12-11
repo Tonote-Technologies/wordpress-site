@@ -180,11 +180,12 @@
                                     <li><a class="sub-menu-item" href="<?php echo site_url('/real-estate'); ?>">Real
                                             Estate</a></li>
                                     <li><a class="sub-menu-item"
-                                            href="<?php echo site_url('/financial-services'); ?>">Financial Services</a>
+                                            href="<?php echo site_url('/financial-service'); ?>">Financial Services</a>
                                     </li>
-                                    <li><a class="sub-menu-item" href="<?php echo site_url('/government'); ?>">
-                                            Government</a></li>
-                                    <li><a class="sub-menu-item" href="<?php echo site_url('/hr'); ?>"> HR</a></li>
+                                    <!-- <li><a class="sub-menu-item" href="<?php //echo site_url('/government'); ?>">
+                                            Government</a></li> -->
+                                    <li><a class="sub-menu-item" href="<?php echo site_url('/human-resource'); ?>">
+                                            HR</a></li>
                                 </ul>
                             </li>
                             <li style="width: 700px;">
