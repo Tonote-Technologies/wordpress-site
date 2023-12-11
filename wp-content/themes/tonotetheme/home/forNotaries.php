@@ -53,7 +53,7 @@
                             Notarize from anywhere</div>
                     </div>
                 </div>
-                <div class="second-container">
+                <div class="my-5">
                     <a href="<?php echo $hero['link'] ?? ''; ?>" class="btn btn-outline-light my-2">
                         Get Started <img
                             src="<?php bloginfo('template_directory'); ?>/assets/images/icon/arrow-narrow-right.png" />
