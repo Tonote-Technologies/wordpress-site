@@ -5,8 +5,8 @@
             <h2 class="text-center">See what our users are saying</h2>
             <div class="container py-4">
                 <div class="row align-items-center">
-                    <div class="col-lg-1 col-sm-2">Clients Testimonials</div>
-                    <div class="col-lg-11 col-sm-10">
+                    <div class="col-lg-1 col-sm-12">Clients Testimonials</div>
+                    <div class="col-lg-11 col-sm-12">
                         <section class="testimonial-wrap">
                             <?php foreach ($testimonial as $row) { ?>
                                 <div class="card m-2 border py-4 px-2">
