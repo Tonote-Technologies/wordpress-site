@@ -1,7 +1,7 @@
 <?php $testimonial = get_field('testimonial'); ?>
 <?php if (have_rows('testimonial')): ?>
-    <section class="section-slide">
-        <div class="container-fluid bg-light ">
+    <section class="">
+        <div class="container bg-light ">
             <h2 class="text-center">See what our users are saying</h2>
             <div class="container py-4">
                 <div class="row align-items-center">
