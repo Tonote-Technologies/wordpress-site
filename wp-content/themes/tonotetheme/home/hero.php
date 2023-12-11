@@ -38,7 +38,7 @@ $hero = get_field('hero');
                     <div class="pt-2">
 
                         <img src="<?php echo $hero['banner_image'] ?? ''; ?>"
-                            class="img-fluid lg-screen animate__animated animate__zoomIn" />
+                            class="img-fluid animate__animated animate__zoomIn" />
 
                     </div>
                 </div>
